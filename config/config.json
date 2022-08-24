@@ -1,0 +1,44 @@
+{
+    "production": {
+        "host": "localhost",
+        "user": "postgres",
+        "password": "admin",
+        "database": "postgres",
+        "port": 5435,
+        "driver": "pg",
+        "dialect": "postgres",
+        "ssl": false,
+        "dialectOptions": {
+            "useUTC": false
+        },
+        "multipleStatements": true
+    },
+    "development": {
+        "host": "localhost",
+        "user": "postgres",
+        "password": "admin",
+        "database": "postgres",
+        "port": 5435,
+        "driver": "pg",
+        "dialect": "postgres",
+        "ssl": false,
+        "dialectOptions": {
+            "useUTC": false
+        },
+        "multipleStatements": true
+    },
+    "testing": {
+        "host": "localhost",
+        "user": "postgres",
+        "password": "admin",
+        "database": "postgres",
+        "port": 5435,
+        "driver": "pg",
+        "dialect": "postgres",
+        "ssl": false,
+        "dialectOptions": {
+            "useUTC": false
+        },
+        "multipleStatements": true
+    }
+}

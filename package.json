@@ -1,0 +1,41 @@
+{
+  "name": "server-template",
+  "version": "1.0.0",
+  "description": "Server template on Node JS v18.7.0 with support Express, PostgreSQL v12 and architectural style REST API.",
+  "main": "api.js",
+  "scripts": {
+    "start": "npm run devup && npm run dev",
+    "dev": "npm run devup && cross-env NODE_ENV=development nodemon ./api/api.js",
+    "devup": "",
+    "devdown": "",
+    "prod": "npm run produp && cross-env NODE_ENV=production node ./api/api.js",
+    "produp": "",
+    "proddown": "",
+    "test": "npm run testup && cross-env NODE_ENV=testing nodemon ./api/api.js",
+    "testup": "",
+    "testdown": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonstantinovEgor/server-template-nodejs-postgre.git"
+  },
+  "author": "Konstantinov Egor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KonstantinovEgor/server-template-nodejs-postgre/issues"
+  },
+  "homepage": "https://github.com/KonstantinovEgor/server-template-nodejs-postgre#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "chalk": "^4.1.2",
+    "core-js": "^2.6.9",
+    "cross-env": "^7.0.3",
+    "db-migrate": "^0.11.13",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-routes-mapper": "^1.1.0",
+    "nodemon": "^2.0.19",
+    "pg": "^8.8.0",
+    "sequelize": "^6.21.4"
+  }
+}
